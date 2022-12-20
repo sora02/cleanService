@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #1B8438;
+    justify-content: space-around;
+}
+.list {
+    list-style: none;
+    padding: 20px 0;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.logo {
+    width: 130px;
+    height: 63px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
