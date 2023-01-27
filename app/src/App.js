@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./pages/home/home"
-import Nav from "./components/Nav/nav/Nav";
+import Nav from "./components/Nav/Nav";
 import { Route, Routes } from "react-router-dom";
 import Product from "./pages/products/product";
 import Free from "./pages/free/free";

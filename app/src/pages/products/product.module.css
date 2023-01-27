@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.listContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 10% 5%; 
+}
+.productImage {
+    width: 307px;
+    height: 307px;
+}
+.searchBox {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px 8px 0 14px;
+    width: 500px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+input {
+   border: none;
+   width: 300px;
+   height: 30px;
+}
+input:focus { outline: none; }
+.glass {
+    width: 30px;
+    height: 30px;
+    padding-right: 50px;
+}
+.option {
+    border: none;
+}
+select:focus {outline: none;}

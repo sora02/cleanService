@@ -1,10 +1,11 @@
 import React from "react";
 import style from "./home.module.css"
+import homeBanner from '../../assets/images/banner.jpg';
 const Home = () => {
-    return <div>
-        <img src="" alt="" />
-        안녕하세요
+    return <div className={style.container}>
+        <img src={homeBanner} alt="" className={style.homeBanner}/>
     </div> 
 }
+
 
 export default Home;

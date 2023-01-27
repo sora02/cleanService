@@ -1,0 +1,22 @@
+.tabItem {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+.tabItem :active {
+    border-bottom: 1px solid black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tabContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}

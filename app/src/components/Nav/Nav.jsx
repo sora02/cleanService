@@ -19,7 +19,7 @@ const Nav = () => {
             </li>
             <li className={style.list}>
                 <Link to="/comment" className={style.link}>
-                    비포애프터
+                    고객들의 소리
                 </Link>
             </li>
             <li className={style.list}>
