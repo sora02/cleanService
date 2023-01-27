@@ -1,4 +1,4 @@
-.container {
+.navContainer {
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -17,6 +17,24 @@
 .logo {
     width: 130px;
     height: 63px;
-    padding-top: 20px;
-    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.loginContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.login {
+    margin: 0 30px;
+}
+a {
+    text-decoration: none;
+    color: black;
 }

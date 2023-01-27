@@ -6,12 +6,21 @@ const Nav = () => {
 
     const[isLogin, setIsLogin] = useState(false);
 
-    return <div>
-        <Link to="/" className={style.title}>
-            <img src={logo} alt="로고" className={style.logo}/>
-        </Link>
+    return <div className={style.container}>
+        <div className={style.loginContainer}>
+            <span>
+                <Link to="/" className={style.title}>
+                    <img src={logo} alt="로고" className={style.logo}/>
+                </Link>
+            </span>
+
+            <span className={style.login}>
+                <span className={style.login}><Link to="/login">로그인</Link></span>
+                <span className={style.enroll}><Link to="/enroll">회원가입</Link></span>
+            </span>
+        </div>
         
-        <ul className={style.container}>
+        <ul className={style.navContainer}>
             <li className={style.list}>
                 <Link to="/product" className={style.link}>
                     청소용품
@@ -28,6 +37,8 @@ const Nav = () => {
                 </Link>
             </li>
         </ul>
+
+        
     </div> 
 }
 
