@@ -1,8 +1,11 @@
 import React from "react";
+import style from './free.module.css';
 
 const Free = () => {
     return <div>
-        미안합니다.
+        <form action="" className={style.formContainer}>
+            <input type="text" />
+        </form>
     </div>;
 }
 
