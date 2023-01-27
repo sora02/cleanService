@@ -12,12 +12,12 @@ export class CommentModel {
         const All = await Comment.find({});
         return All;
     }
-    async findById(orderId) {
-        const result = await Comment.findOne({ _id: orderId });
+    async findById(commentId) {
+        const result = await Comment.findOne({ _id: commentId });
         return result;
     }
-    async delete(orderId) {
-        const result = await Comment.deleteOne({ _id: orderId });
+    async delete(commentId) {
+        const result = await Comment.deleteOne({ _id: commentId });
         return result;
     }
     async update({ orderId, update }) {

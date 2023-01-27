@@ -4,8 +4,8 @@ import { ProductSchema } from "../schema/product-schema";
 const Product = model("products", ProductSchema);
 
 export class ProductModel {
-    async findByTitle(name) {
-        const product = await Product.findOne({ name });
+    async findByTitle(title) {
+        const product = await Product.findOne({ title });
         return product;
       }
     async create(pruductInfo) {

@@ -5,7 +5,7 @@ const CommentSchema = new Schema(
         userId: {
             type: Schema.Types.ObjectId,
             ref: "user"
-          },
+        },
         title: {
             type: String,
         },
